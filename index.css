@@ -1,0 +1,57 @@
+:root{
+  --color-dark: black;
+  --color-bp: black;
+  --color-unaccent: #B1EFFC;
+  --spacing-small: 10px;
+  --spacing-medium: 15px;
+  --spacing-large: 30px;
+  --border-radius: 3px;
+  --linear-gradient: linear-gradient(to right, #e2f87c, #d6f567, #c8f151, #b9ee38, #a8eb12);
+	--box-shadow: 
+    0 8px 12px 2px #b1effc, 
+		0 3px 15px 2.5px #B1EFFC, 
+		0 4px 5px -2.5px #B1EFFC;
+
+    --search-box-shadow:
+    0 2px 3px 1px #000000, 
+    0 1px 4px 1px #01010020, 
+    0 1px 1.25px 1px #010030;
+    
+    
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #B1EFFC;
+	
+}
+::-webkit-scrollbar-track {
+	background-color: var(--color-white);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-dark);
+    font-family: sans-serif;
+    line-height: 1.7;
+    color: #B1EFFC;
+    
+}
+
+.logo{
+  background-image: url(img/baner/baner.png);
+  background-repeat: no-repeat;
+  width: 1925x;
+  height: 200px;
+  background-size: cover; 
+  background-position: center;   
+}
+
+
